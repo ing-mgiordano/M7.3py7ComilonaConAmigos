@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComidaConAmigos</title>
+</head>
+<body align="center">
+    <h1>Comilona con Amigos</h1>
+
+    <div width="400px" height="800px" style="border: 2px solid rgba(20, 4, 251, 0.383)">
+        <p>Cantidad de personas</p>
+        <input type="number" id="people-input" placeholder="Cantidad de personas">
+        <br><br>
+        <p>Precio de fideos</p>
+        <input type="number" id="price-noodle-input" placeholder="Precio fideos($ x Kg)">
+        <p>Precio de calamares</p>
+        <input type="number" id="price-squid-input" placeholder="Precio calamares($ x Kg)">
+        <p>Precio de gambas</p>
+        <input type="number" id="price-shrimp-input" placeholder="Precio gambas($ x Kg)">
+        <br><br>
+        <button onclick="calculateFood()">Check</button>
+        <br>
+        <p id="quantity-ingredients"></p>
+        <p id="price-per-person"></p>
+        <p id="total-price"></p>
+        <br>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
